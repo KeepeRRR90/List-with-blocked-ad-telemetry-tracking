@@ -78,6 +78,8 @@
 @@||ru.global.market.xiaomi.com^
 @@||weatherapi.intl.xiaomi.com^
 @@||update.intl.miui.com^
+@@||cloudsave.ubisoft.com^
+@@||game-services.ubisoft.com^
 
 ! --- Google Реклама и аналитика ---
 ||*.doubleclick.net^
@@ -238,7 +240,6 @@
 ! --- CDN и служебные домены (безопасные) ---  
 ||*.msecnd.net^$domain=~windowsupdate.com  
 ||*.vo.msecnd.net^  
-||*.trafficmanager.net^  
 
 ! --- Облачные сервисы (без блокировки важного) ---  
 ||*.blob.core.windows.net^$domain=~microsoft.com|~azure.com  
@@ -408,3 +409,148 @@
 ! Блокировка CDN и рекламных сетей
 ||ads.*.ru^$domain=ozon.ru|wildberries.ru|dns-shop.ru|onlinetrade.ru
 ||track.*.ru^$domain=ozon.ru|wildberries.ru|dns-shop.ru|onlinetrade.ru
+
+! === Оптимизированный блокировщик рекламных и трекинговых доменов ===
+! Версия 2.2 (группировка по категориям + wildcards)
+
+! --- Рекламные сети ---
+||adgate.*^
+||adsales.*^
+||appier.*^
+||flashtalking.com^
+||imonomy.com^
+||popads.net^
+||revcontent.net^
+||outbrain.com^
+||taptica.com^
+||vidoomy.com^
+||ziffdavis.com^
+
+! --- Трекинговые сервисы ---
+||*.track*^
+||afftrackr.com^
+||crwdcntrl.net^
+||fast.trackmeup.io^
+||srvtrck.com^
+||redirectvoluum.com^
+||hypertrack.com^
+
+! --- URL-редиректы ---
+||*.redirect*^
+||clkmein.com^
+||clkmon.com^
+||direct-link.net^
+||dlvr.uk^
+||go.redirectingat.com^
+||shrtco.de^
+||smartredirect.de^
+||snip.li^
+||v.ht^
+
+! --- Виджеты и плагины ---
+||insticator.com^
+||longtailvideo.com^
+||spot.im^
+||socialblade.com^
+||newscred.com^
+||justroulette.com^
+
+! --- Партнерские программы ---
+||hasoffers.com^
+||ampli.fi^
+||topadvert.ru^
+||twenga.com^
+||turbolister.com^
+
+! --- Прочие трекеры ---
+||anetwork.life^
+||apex-ad.com^
+||bit.servefeed.com^
+||countdownjs.org^
+||doordie.in^
+||droid4.me^
+||e-volution.ai^
+||eventlogger.adsbee.de^
+||feedsportal.com^
+||fireads.tv^
+||hubs.ly^
+||lnkd.in^
+||mxptint.net^
+||policies.google.com^
+||qoo.by^
+||rbx.community^
+||tdstara.com^
+||urlparser.com^
+||wheredoisitgo.com^
+||wp.com^
+
+! --- Дубликаты и тестовые домены ---
+||ngfts.lge.com^
+||snoogifts.com^
+||client-office365.com^
+||sparkcity.beatport.com^
+||sway.office.com^
+||sydney.office.com^
+||tap-stream.com^
+||us-wg.iamaze.com^
+||v10.viope.com^
+||wac.highmed.org^
+||wac.phicdn.net^
+
+! --- Социальные сети ---
+||pixel.quora.com^
+||snap.licdn.com^
+||px.ads.linkedin.com^
+||static.ads-twitter.com^
+||ads-api.twitter.com^
+||analytics.twitter.com^
+
+! --- Samsung ---
+||ads.samsungads.com^
+||config.samsungads.com^
+||ad.samsungadhub.com^
+||metrics.samsung.com^
+||sas.samsungcloud.com^
+||ads-api.samsungadhub.com^
+
+! --- Аналитика и мониторинг ---
+||*.logrocket.io^
+||*.raygun.*^
+||*.honeybadger.com^
+||*.rollbar.com^
+||*.sentry-cdn.com^
+||crashlytics.com^
+||reports.crashlytics.com^
+
+! --- Прочие трекеры ---
+||indexexchange.com^
+||cdn.indexexchange.com^
+||ads.rbm.adswizz.com^
+||metrics.ctv.rakuten.co.jp^
+||telemetry.sdk.androidtv^
+||statsigapi.net^
+||tracking.kontext.tech^
+
+! --- Honor ---
+||analytics.hihonor.com^
+||logserver.hihonor.com^
+||ads1.hihonor.com^
+
+! --- Apple (безопасные для блокировки) ---
+||adcampaign.apple.com^
+||search.ads.apple.com^
+
+! --- Telegram ---
+||t.me/ads^
+||t.me/ad_^
+||ads.tgstat.ru^
+||analytics.tgstat.ru^
+
+! --- Twitch ---
+||*.twitch.tv^$domain=~twitch.tv
+||analytics.ttvnw.net^
+
+! Блокировка только рекламных доменов Ubisoft:
+||ads*.ubisoft.com^
+||adscserv.ubi.com^
+||adv-co1.uappexplorer.com^
