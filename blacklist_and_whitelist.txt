@@ -133,10 +133,7 @@
 ||*.licdn.com^
 
 ! --- Российские трекеры ---
-||*.yandex.ru^
 ||*.yastatic.net^
-||*.mail.ru^
-||*.vk.com^
 
 ! --- Apple сервисы ---
 ||*.apple.com^$domain=~apple.com
