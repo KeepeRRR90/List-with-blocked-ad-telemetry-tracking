@@ -150,8 +150,7 @@
 ||watson.telemetry.microsoft.com^  
 
 ! --- Блокировка трекеров Edge ---  
-||*.edge.microsoft.com^   
-||*.edgekey.net^  
+||*.edge.microsoft.com^ 
 
 ! --- CDN и служебные домены (безопасные) ---  
 ||*.msecnd.net^$domain=~windowsupdate.com  
