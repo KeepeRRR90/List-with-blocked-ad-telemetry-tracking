@@ -342,7 +342,6 @@
 ||ziffdavis.com^
 
 ! --- Трекинговые сервисы ---
-||*.track*^
 ||afftrackr.com^
 ||crwdcntrl.net^
 ||fast.trackmeup.io^
