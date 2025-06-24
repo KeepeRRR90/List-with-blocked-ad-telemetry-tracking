@@ -454,12 +454,6 @@
 ||adcampaign.apple.com^
 ||search.ads.apple.com^
 
-! --- Telegram ---
-||t.me/ads^
-||t.me/ad_^
-||ads.tgstat.ru^
-||analytics.tgstat.ru^
-
 ! --- Twitch ---
 ||*.twitch.tv^$domain=~twitch.tv
 ||analytics.ttvnw.net^
