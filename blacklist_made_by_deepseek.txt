@@ -130,7 +130,6 @@
 ||replay.io^
 ||logrocket.com^
 ||heap.io^
-||metrics.alfabank.ru^
 
 ! --- Реклама и трекинг Microsoft ---  
 ||ads1.msft.net^  
@@ -147,7 +146,9 @@
 ||*.vortex.data.microsoft.com^
 ||feedback.microsoft.com^  
 ||oca.telemetry.microsoft.com^  
-||watson.telemetry.microsoft.com^  
+||watson.telemetry.microsoft.com^
+||v20.events.data.microsoft.com^
+||v10.events.data.microsoft.com^
 
 ! --- Блокировка трекеров Edge ---  
 ||*.edge.microsoft.com^ 
@@ -242,7 +243,6 @@
 ||tracking.miui.com^  
 ||tvapi.kuyun.com^  
 ||tvapi.pandora.xiaomi.com^
-||metrics.dt.hihonorcloud.com^
 
 ! --- Subdomains (Ads, Tracking, Analytics) ---
 ||*.ads.smarttv.com^
@@ -444,11 +444,26 @@
 ||telemetry.sdk.androidtv^
 ||statsigapi.net^
 ||tracking.kontext.tech^
+||metrics.alfabank.ru^
+||telemetry.tracker.gg^
+||analytics.tracker.gg^
+||ads.tracker.gg^
+||adservice.tracker.gg^
+||events.tracker.gg^
+||metrics.vivaldi.com^
+||collector.vivaldi.com^
+||telemetry.amd.com^
+||metrics.amd.com^
+||pluto.web.telegram.org^
+||piriform.com^
+||ccleaner.com^
+||analytics.avast.com^
 
 ! --- Honor ---
 ||analytics.hihonor.com^
 ||logserver.hihonor.com^
 ||ads1.hihonor.com^
+||metrics.dt.hihonorcloud.com^
 
 ! --- Apple (безопасные для блокировки) ---
 ||adcampaign.apple.com^
