@@ -138,8 +138,19 @@
 ||ads1.msft.net^  
 ||a.ads1.msn.com^  
 ||analytics.mobileapp.microsoft.com^  
-||*.bing.com^$domain=~bing.com|~www.bing.com  
-||*.msn.com^$domain=~msn.com|~www.msn.com  
+||*.bing.com^$domain=~bing.com|~www.bing.com^
+||*.msn.com^$domain=~msn.com|~www.msn.com^
+||*.speech.platform.bing.com^
+||*.tlu.dl.delivery.mp.microsoft.com^
+||*.cortana.ai^
+||*.widgets.microsoft.com^
+||*.a.ads.microsoft.com^
+||*.adnexus.net^
+||*.redir.msn.com^
+||*.feedproxy.google.com^
+||*.watson.ppe.telemetry.microsoft.com^
+||*.personal-recommendations.api.microsoft.com^
+||*.feedproxy.google.com^
 
 ! --- Телеметрия Windows (не ломает обновления) ---  
 ||*.telemetry.microsoft.com^  
@@ -152,9 +163,18 @@
 ||watson.telemetry.microsoft.com^
 ||v20.events.data.microsoft.com^
 ||v10.events.data.microsoft.com^
+||*.telecommand.telemetry.microsoft.com^
+||*.telemetrialt.telemetry.microsoft.com^
+||*.device.telemetry.microsoft.com^
+||*.vortex-win.data.microsoft.com^
+||*.settings-win.data.microsoft.com^
 
 ! --- Блокировка трекеров Edge ---  
-||*.edge.microsoft.com^ 
+||*.edge.microsoft.com^
+||*.microsoftedgeservices.com^
+||*.bing.com3.adsafeprotected.com^
+||*.bingads.microsoft.com^
+||*.browser.pipe.aria.microsoft.com^
 
 ! --- CDN и служебные домены (безопасные) ---  
 ||*.msecnd.net^$domain=~windowsupdate.com  
@@ -225,15 +245,6 @@
 ||logs.roku.com^
 ||advertising.amazon.com^
 ||ads.lg.com^
-||*.samsungotn.net^
-||*.samsungcloudsolution.com^
-||*.samsung-ads.com^
-||*.samsungacr.com^
-||*.hubsamsung.com^
-||*.ssmc.samsung.com^
-||*.cloudmobi.net^
-||*.adtech.samsung.com^
-||*.analytics.samsungds.com^
 ||*.smartthings.com^
 ||*.smartthingsos.com^
 ||*.lgappstv.com^
@@ -482,6 +493,15 @@
 ||metrics.samsung.com^
 ||sas.samsungcloud.com^
 ||ads-api.samsungadhub.com^
+||*.samsungotn.net^
+||*.samsungcloudsolution.com^
+||*.samsung-ads.com^
+||*.samsungacr.com^
+||*.hubsamsung.com^
+||*.ssmc.samsung.com^
+||*.cloudmobi.net^
+||*.adtech.samsung.com^
+||*.analytics.samsungds.com^
 
 ! --- Аналитика и мониторинг ---
 ||*.logrocket.io^
