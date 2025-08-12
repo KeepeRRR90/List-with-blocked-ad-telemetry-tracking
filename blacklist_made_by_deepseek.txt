@@ -39,6 +39,9 @@
 ||*.stickyadstv.com^
 ||*.smaato.net^
 ||*.mydas.mobi^
+||telemetry.ea.com^
+||events.ea.com^
+||phar.teradata.com^
 
 ! --- Трекинговые сервисы ---
 ||*.scorecardresearch.com^
@@ -483,3 +486,85 @@
 ||adeventtracker.spotify.com^
 ||log.spotify.com^
 ||analytics.spotify.com^
+
+# === Новые рекламные сети и AdTech ===
+||ads-api.media2025.net^
+||trackly.global^
+||pixel.fastmetrics.io^
+||log.collect.run^
+||event.streamlytics.net^
+||cdn.adshell.net^
+||*.zippyads.com^
+||*.metricaapi.com^
+||*.analytix.cloud^
+||*.insightcdn.pro^
+||*.deepmetrics.io^
+
+# === AI и "интеллектуальная" аналитика (новые) ===
+||ai-track.net^
+||*.smartlog.ai^
+||*.userinsight.cloud^
+||*.neuraltrack.com^
+||*.datahive.ai^
+||*.userpulse.net^
+||*.ai-metrics.pro^
+||ads-api.media2025.net^
+||trackly.global^
+||pixel.fastmetrics.io^
+||log.collect.run^
+||*.analytix.cloud^
+||*.insightcdn.pro^
+||*.snssdk-2025.net^
+
+# === Новые домены TikTok / ByteDance ===
+||*.snssdk-2025.net^
+||*.tiktokv2.com^
+||*.p16-sg.byteimg.com^
+||*.zilko.com^
+||*.musical.ly.data^
+||*.tiktokv2.com^
+||*.zilko.com^
+
+# === Новые трекеры от Meta и Google (2025) ===
+||*.ocsp-cdn.com^
+||*.firebase-ads.com^
+||*.gstatic-apps.com^
+||*.yt3.ggpht.com^
+||tpc.googlesyndication.com^
+||securepubads.g.doubleclick.net^
+||*.pagead2.googlesyndication.com^
+||*.youtube-nocookie.com^
+||*.googlesyndication.com^
+||*.facebook-rewards.com^
+||*.meta-adsystem.com^
+
+# === Новые криптомайнеры и вредоносные скрипты ===
+||miner2025.pro^
+||webcoin.site^
+||crypto-load.com^
+||*.cryptoloot.site^
+||jscoinminer-new.com^
+||*.coinhive.ru^
+||jscoinminer.com^
+
+# === Подозрительные CDN и обходные домены ===
+||*.fastmetrics-cdn.com^
+||*.edgeapi.stream^
+||*.cdn-fastly.io^
+||*.cloudflare-secure.com^
+||*.fastly-ssl.net^
+||*.edgecastcdn.net^
+||*.akadns.net^
+||sberbank-verification.ru^
+||tinkoff-login.ru^
+||gosuslugi-portal.ru^
+||mos.ru-login.ru^
+||pochtabank-secure.ru^
+||fns-tax.online^
+||cdek-track.ru^
+||pochta-rossii.ru^
+||dostavka-2025.ru^
+||boxberry-tracking.com^
+||wildberries-shop.ru^
+||ozon-deals.ru^
+||aliexpress-official.store^
