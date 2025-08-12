@@ -225,6 +225,57 @@
 ||logs.roku.com^
 ||advertising.amazon.com^
 ||ads.lg.com^
+||*.samsungotn.net^
+||*.samsungcloudsolution.com^
+||*.samsung-ads.com^
+||*.samsungacr.com^
+||*.hubsamsung.com^
+||*.ssmc.samsung.com^
+||*.cloudmobi.net^
+||*.adtech.samsung.com^
+||*.analytics.samsungds.com^
+||*.smartthings.com^
+||*.smartthingsos.com^
+||*.lgappstv.com^
+||*.lgappstv-analytics.com^
+||*.lgutil.com^
+||*.lgeapi.com^
+||*.netcast.lg.com^
+||*.lgdatacast.com^
+||*.lgthinq.com^
+||*.lgthinq-analytics.com^
+||*.lgads.tv^
+||*.lgtvsdp.com^
+||*.sony-dmp.net^
+||*.sonyentertainmentnetwork.com^
+||*.sonymobile.net^
+||*.sony-service.com^
+||*.sony-service.net^
+||*.sony-digital.net^
+||*.sony-digital.tv^
+||*.sony-digital-analytics.com^
+||*.tclclouds.com^
+||*.tclclouds-analytics.com^
+||*.tcl-ott.com^
+||*.tcl-ads.com^
+||*.tcl-service.net^
+||*.tcl-data.com^
+||*.tcl-metrics.net^
+||*.hisense-dmp.com^
+||*.hisense-ads.com^
+||*.hisense-service.com^
+||*.hisense-cloud.net^
+||*.hisense-analytics.com^
+||*.vidaa.com^
+||*.vidaa-tv.com^
+||*.philips-smart.tv^
+||*.tpvision.com^
+||*.fireos.amazon.com^
+||*.firetv.amazon.com^
+||*.alexa-skills.com^
+||*.quasar.net^
+||*.ok.ru^
+||*.ok-analytic.com^
 
 ! --- Xiaomi Ads & Telemetry ---  
 ||ad.xiaomi.com^  
@@ -246,6 +297,8 @@
 ||tracking.miui.com^  
 ||tvapi.kuyun.com^  
 ||tvapi.pandora.xiaomi.com^
+||*.events.micloud.xiaomi.com^
+||*.router-config.miwifi.com^
 
 ! --- Subdomains (Ads, Tracking, Analytics) ---
 ||*.ads.smarttv.com^
@@ -461,6 +514,20 @@
 ||piriform.com^
 ||ccleaner.com^
 ||analytics.avast.com^
+||*.miot-spec.com^
+||*.miot-spec.io^
+||*.miot-spec.net^
+||*.tuya.com^
+||*.tuyaeu.com^
+||*.tuyaus.com^
+||*.tuya-smart.com^
+||*.tuya-analytics.com^
+||*.smartlife.com^
+||*.aquesa.com^
+||*.aquesa-analytics.com^
+||*.ezviz.com^
+||*.ezvizyun.com^
+||*.hik-cloud.com^
 
 ! --- Honor ---
 ||analytics.hihonor.com^
