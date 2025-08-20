@@ -4,7 +4,6 @@
 ||*.google-analytics.com^
 ||*.googletagmanager.com^
 ||adservice.google.*^
-||securepubads.g.doubleclick.net^
 ||stats.g.doubleclick.net^
 ||youtubei.googleapis.com^
 ||redirector.googlevideo.com^
@@ -634,7 +633,6 @@
 ||*.gstatic-apps.com^
 ||*.yt3.ggpht.com^
 ||tpc.googlesyndication.com^
-||securepubads.g.doubleclick.net^
 ||*.pagead2.googlesyndication.com^
 ||*.youtube-nocookie.com^
 ||*.googlesyndication.com^
