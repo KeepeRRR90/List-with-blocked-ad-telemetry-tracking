@@ -9,6 +9,21 @@
 ||youtubei.googleapis.com^
 ||redirector.googlevideo.com^
 ||s.youtube.com^
+||voledevice-pa.googleapis.com^
+||geller-pa.googleapis.com^
+||fls.doubleclick.net^
+||partnerad.l.doubleclick.net^
+||match.adsrvr.org^
+||dart.google.com^
+||interstitial.doubleclick.net^
+||googleadsserving.googlesyndication.com^
+||ade.googlesyndication.com^
+||gtag.js^
+||dc.ads.linkedin.com^
+||mobileads.google.com^
+||adservice.android.com^
+||adwords.google.com^
+||ads.googleusercontent.com^
 
 ! --- Популярные рекламные сети ---
 ||*.adtech.*^
@@ -42,6 +57,8 @@
 ||telemetry.ea.com^
 ||events.ea.com^
 ||phar.teradata.com^
+||prodregistryv2.org^
+||tracker-api.my.com^
 
 ! --- Трекинговые сервисы ---
 ||*.scorecardresearch.com^
@@ -338,8 +355,7 @@
 ||playatoms-pa.googleapis.com^  
 ||safebrowsing.googleapis.com^  
 ||sb-ssl.google.com^  
-||securepubads.g.doubleclick.net^  
-||googleads.g.doubleclick.net^  
+||securepubads.g.doubleclick.net^
 ||stats.g.doubleclick.net^  
 ||www.googleadservices.com^  
 ||firebaselogging.googleapis.com^
