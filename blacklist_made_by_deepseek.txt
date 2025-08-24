@@ -326,6 +326,12 @@
 ||tvapi.pandora.xiaomi.com^
 ||*.events.micloud.xiaomi.com^
 ||*.router-config.miwifi.com^
+||globalapi.ad.xiaomi.com^
+||data.mistat.intl.xiaomi.com^
+||api.settings.intl.xiaomi.com^
+||in-miuilog.sms.intl.xiaomi.com^
+||api.ad.intl.xiaomi.com^
+||api.ad.xiaomi.com^
 
 ! --- Subdomains (Ads, Tracking, Analytics) ---
 ||*.ads.smarttv.com^
@@ -358,6 +364,9 @@
 ||stats.g.doubleclick.net^  
 ||www.googleadservices.com^  
 ||firebaselogging.googleapis.com^
+||google-analytics.com^
+||googletagmanager.com^
+||googletagservices.com^
 
 ! --- Popular Ad Networks on Android TV ---  
 ||ads.api.vungle.com^  
