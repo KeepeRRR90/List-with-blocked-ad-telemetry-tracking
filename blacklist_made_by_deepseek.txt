@@ -72,6 +72,8 @@
 
 ! --- Российские трекеры ---
 ||*.yastatic.net^
+||smi2.ru^
+||smi2.net^
 
 ! --- Apple сервисы ---
 ||*.apple.com^$domain=~apple.com
