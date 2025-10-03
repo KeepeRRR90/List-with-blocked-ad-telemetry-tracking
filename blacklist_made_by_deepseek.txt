@@ -594,12 +594,6 @@
 ||adscserv.ubi.com^
 ||adv-co1.uappexplorer.com^
 
-! Блокируем только рекламные серверы Spotify
-||ads-fa.spotify.com^
-||adeventtracker.spotify.com^
-||log.spotify.com^
-||analytics.spotify.com^
-
 # === Новые рекламные сети и AdTech ===
 ||ads-api.media2025.net^
 ||trackly.global^
