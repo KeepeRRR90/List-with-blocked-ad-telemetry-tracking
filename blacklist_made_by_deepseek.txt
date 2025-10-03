@@ -159,7 +159,6 @@
 ||*.bing.com^$domain=~bing.com|~www.bing.com^
 ||*.msn.com^$domain=~msn.com|~www.msn.com^
 ||*.speech.platform.bing.com^
-||*.tlu.dl.delivery.mp.microsoft.com^
 ||*.cortana.ai^
 ||*.widgets.microsoft.com^
 ||*.a.ads.microsoft.com^
