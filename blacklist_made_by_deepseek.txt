@@ -191,11 +191,7 @@
 ||*.microsoftedgeservices.com^
 ||*.bing.com3.adsafeprotected.com^
 ||*.bingads.microsoft.com^
-||*.browser.pipe.aria.microsoft.com^
-
-! --- CDN и служебные домены (безопасные) ---  
-||*.msecnd.net^$domain=~windowsupdate.com  
-||*.vo.msecnd.net^  
+||*.browser.pipe.aria.microsoft.com^ 
 
 ! --- Облачные сервисы (без блокировки важного) ---  
 ||*.blob.core.windows.net^$domain=~microsoft.com|~azure.com  
@@ -659,7 +655,6 @@
 ||*.cloudflare-secure.com^
 ||*.fastly-ssl.net^
 ||*.edgecastcdn.net^
-||*.akadns.net^
 ||sberbank-verification.ru^
 ||tinkoff-login.ru^
 ||gosuslugi-portal.ru^
