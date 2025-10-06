@@ -170,21 +170,8 @@
 ||*.feedproxy.google.com^
 
 ! --- Телеметрия Windows (не ломает обновления) ---  
-||*.telemetry.microsoft.com^  
-||*.data.microsoft.com^  
-||*.events.data.microsoft.com^  
-||*.watson.data.microsoft.com^  
-||*.vortex.data.microsoft.com^
-||feedback.microsoft.com^  
-||oca.telemetry.microsoft.com^  
-||watson.telemetry.microsoft.com^
-||v20.events.data.microsoft.com^
-||v10.events.data.microsoft.com^
-||*.telecommand.telemetry.microsoft.com^
-||*.telemetrialt.telemetry.microsoft.com^
-||*.device.telemetry.microsoft.com^
-||*.vortex-win.data.microsoft.com^
-||*.settings-win.data.microsoft.com^
+||telemetry.microsoft.com^
+||telemetry.urs.microsoft.com^
 
 ! --- Блокировка трекеров Edge ---  
 ||*.edge.microsoft.com^
@@ -213,10 +200,11 @@
 ||get*.org^  
 
 ! --- General Ad Servers ---  
-||adserver.*.com^  
-||adserver.*.net^  
-||adserver.*.io^  
-||adserver.*.org^  
+||adserver.*.com^
+||adserver.*.net^
+||adserver.*.io^
+||adserver.*.org^
+||adserver.*.ru^
 
 ! --- Specific Ad Networks ---  
 ||adtech*.com^  
