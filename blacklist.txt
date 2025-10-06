@@ -479,3 +479,15 @@
 ||wildberries-shop.ru^
 ||ozon-deals.ru^
 ||aliexpress-official.store^
+
+||ru.hlth.io.mi.com^
+||mitv.tracking.rus.miui.com^
+||sdkconfig.ad.intl.xiaomi.com^
+||sdkconfig.ad.rus.xiaomi.com^
+||log-upload-os.hismarttv.com^
+||data.arris.com^
+||lgtvonline.lge.com^
+||telemetry.openai.com^
+||events.openai.com^
+||data-anonymization.openai.com^
+||ai-tracking.com^
