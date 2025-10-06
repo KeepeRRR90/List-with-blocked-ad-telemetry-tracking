@@ -58,6 +58,9 @@
 ||phar.teradata.com^
 ||prodregistryv2.org^
 ||tracker-api.my.com^
+||adsco.re^
+||criteo.net^
+||adroll.com^
 
 ! --- Трекинговые сервисы ---
 ||*.scorecardresearch.com^
@@ -74,6 +77,9 @@
 ||*.yastatic.net^
 ||smi2.ru^
 ||smi2.net^
+||yandex.ru/metrika^
+||mc.yandex.ru^
+||an.yandex.ru^
 
 ! --- Apple сервисы ---
 ||*.apple.com^$domain=~apple.com
@@ -151,6 +157,7 @@
 ||replay.io^
 ||logrocket.com^
 ||heap.io^
+||piano.io^
 
 ! --- Реклама и трекинг Microsoft ---  
 ||ads1.msft.net^  
@@ -191,8 +198,7 @@
 ||quantcast.com^  
 ||chartbeat.com^  
 ||parse.ly^  
-||segment.io^  
-||mixpanel.com^  
+||segment.io^
 ||amplitude.com^  
 
 ! --- "Get-*" Services (SaaS, Push, CDN) ---  
@@ -403,9 +409,6 @@
 ||ads.*.ru^$domain=ozon.ru|wildberries.ru|dns-shop.ru|onlinetrade.ru
 ||track.*.ru^$domain=ozon.ru|wildberries.ru|dns-shop.ru|onlinetrade.ru
 
-! === Оптимизированный блокировщик рекламных и трекинговых доменов ===
-! Версия 2.2 (группировка по категориям + wildcards)
-
 ! --- Рекламные сети ---
 ||adgate.*^
 ||adsales.*^
@@ -591,6 +594,10 @@
 ||*.analytix.cloud^
 ||*.insightcdn.pro^
 ||*.deepmetrics.io^
+||sensorsdata.com^
+||growingio.com^
+||umeng.com^
+||talkingdata.com^
 
 # === AI и "интеллектуальная" аналитика (новые) ===
 ||ai-track.net^
@@ -620,7 +627,7 @@
 # === Новые трекеры от Meta и Google (2025) ===
 ||*.ocsp-cdn.com^
 ||*.firebase-ads.com^
-||*.gstatic-apps.com^
+||gstatic.com^$script,third-party^
 ||*.yt3.ggpht.com^
 ||tpc.googlesyndication.com^
 ||*.pagead2.googlesyndication.com^
