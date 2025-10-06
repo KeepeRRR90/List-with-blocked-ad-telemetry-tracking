@@ -155,9 +155,7 @@
 ! --- Реклама и трекинг Microsoft ---  
 ||ads1.msft.net^  
 ||a.ads1.msn.com^  
-||analytics.mobileapp.microsoft.com^  
-||*.bing.com^$domain=~bing.com|~www.bing.com^
-||*.msn.com^$domain=~msn.com|~www.msn.com^
+||analytics.mobileapp.microsoft.com^
 ||*.speech.platform.bing.com^
 ||*.cortana.ai^
 ||*.widgets.microsoft.com^
@@ -167,18 +165,22 @@
 ||*.feedproxy.google.com^
 ||*.watson.ppe.telemetry.microsoft.com^
 ||*.personal-recommendations.api.microsoft.com^
-||*.feedproxy.google.com^
+||*.office365.telemetry.microsoft.com^
+||*.office.app.telemetry.microsoft.com^
+||*.adsafeprotected.com^
+||*.adsystem.microsoft.com^
+||*.perf.microsoft.com^
+||*.perftracking.microsoft.com^
+||*.us.vortex.data.trafficmanager.net
+||*.eu.vortex.data.trafficmanager.net
 
 ! --- Телеметрия Windows (не ломает обновления) ---  
 ||telemetry.microsoft.com^
 ||telemetry.urs.microsoft.com^
 
 ! --- Блокировка трекеров Edge ---  
-||*.edge.microsoft.com^
-||*.microsoftedgeservices.com^
 ||*.bing.com3.adsafeprotected.com^
 ||*.bingads.microsoft.com^
-||*.browser.pipe.aria.microsoft.com^ 
 
 ! --- Облачные сервисы (без блокировки важного) ---  
 ||*.blob.core.windows.net^$domain=~microsoft.com|~azure.com  
