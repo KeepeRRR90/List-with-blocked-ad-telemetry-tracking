@@ -85,6 +85,9 @@
 ||apple.com.sc.omtrdc.net^
 ||metrics.apple.com^
 ||securemetrics.apple.com^
+||xp-cdn.apple.com^
+||adcampaign.apple.com^
+||search.ads.apple.com^
 
 ! === Аналитика и сбор данных ===
 ||amplitude.com^
@@ -398,13 +401,6 @@
 ||ads1.hihonor.com^
 ||metrics.dt.hihonorcloud.com^
 
-! --- Apple (безопасные для блокировки) ---
-||adcampaign.apple.com^
-||search.ads.apple.com^
-
-! --- Twitch ---
-||analytics.ttvnw.net^
-
 ! Блокировка только рекламных доменов Ubisoft:
 ||ads*.ubisoft.com^
 ||adscserv.ubi.com^
@@ -414,6 +410,7 @@
 ||twitch.tv^$third-party,domain=~twitch.tv
 ||video-edge*.ttvnw.net^$domain=~twitch.tv
 ||client-event-reporter.twitch.tv^
+||analytics.ttvnw.net^
 
 # === Новые рекламные сети и AdTech ===
 ||ads-api.media2025.net^
@@ -491,3 +488,4 @@
 ||events.openai.com^
 ||data-anonymization.openai.com^
 ||ai-tracking.com^
+||mobile.an.yandex.ru^
