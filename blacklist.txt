@@ -477,7 +477,6 @@
 ||ozon-deals.ru^
 ||aliexpress-official.store^
 
-||ru.hlth.io.mi.com^
 ||mitv.tracking.rus.miui.com^
 ||sdkconfig.ad.intl.xiaomi.com^
 ||sdkconfig.ad.rus.xiaomi.com^
