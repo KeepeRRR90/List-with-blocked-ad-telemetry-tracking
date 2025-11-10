@@ -66,7 +66,6 @@
 ||*.addthis.com^
 ||*.quora.com^
 ||*.licdn.com^
-||*.yastatic.net^
 ||smi2.ru^
 ||smi2.net^
 ||mc.yandex.ru^
