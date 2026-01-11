@@ -20,12 +20,9 @@
 ||ads.googleusercontent.com^
 
 ! --- Популярные рекламные сети ---
-||*.adtech.*^
 ||*.adnxs.com^
 ||*.pubmatic.com^
 ||*.sonobi.com^
-||*.adsafeprotected.com^
-||*.quantummetric.com^
 ||*.taboola.*^
 ||*.outbrain.com^
 ||*.revcontent.net^
@@ -82,13 +79,15 @@
 
 ! Apple
 ||apple.com.sc.omtrdc.net^
-||metrics.apple.com^
-||securemetrics.apple.com^
 ||xp-cdn.apple.com^
 ||adcampaign.apple.com^
 ||search.ads.apple.com^
 
 ! === Аналитика и сбор данных ===
+||*.firebase-ads.com^
+||*.meta-adsystem.com^
+||*.snssdk-2025.net^
+||*.tiktokv2.com^
 ||amplitude.com^
 ||hotjar.com^
 ||logrocket.com^
@@ -135,18 +134,15 @@
 ||ads1.msft.net^  
 ||a.ads1.msn.com^  
 ||analytics.mobileapp.microsoft.com^
-||*.speech.platform.bing.com^
 ||*.cortana.ai^
 ||*.widgets.microsoft.com^
 ||*.a.ads.microsoft.com^
-||*.adnexus.net^
 ||*.redir.msn.com^
 ||*.feedproxy.google.com^
 ||*.watson.ppe.telemetry.microsoft.com^
 ||*.personal-recommendations.api.microsoft.com^
 ||*.office365.telemetry.microsoft.com^
 ||*.office.app.telemetry.microsoft.com^
-||*.adsafeprotected.com^
 ||*.adsystem.microsoft.com^
 ||*.perf.microsoft.com^
 ||*.perftracking.microsoft.com^
@@ -186,13 +182,6 @@
 ||*.rambler.ru^$domain=~rambler.ru|~news.rambler.ru
 ||*.mail.ru^$domain=~mail.ru|~e.mail.ru|~my.mail.ru
 ||*.ok.ru^$domain=~ok.ru|~connect.ok.ru
-
-! Социальные сети
-||*.instagram.com^$domain=~instagram.com|~www.instagram.com|~*.instagram.com
-||*.pinterest.com^$domain=~pinterest.com|~www.pinterest.com
-||*.snapchat.com^$domain=~snapchat.com|~www.snapchat.com
-||*.tiktok.com^$domain=~tiktok.com|~www.tiktok.com
-||*.reddit.com^$domain=~reddit.com|~www.reddit.com
 
 ! Мессенджеры
 ||*.discord.com^$domain=~discord.com|~discordapp.com
@@ -350,7 +339,6 @@
 ||*.samsung-ads.com^
 ||*.samsungacr.com^
 ||*.cloudmobi.net^
-||*.adtech.samsung.com^
 ||*.analytics.samsungds.com^
 
 ! --- Аналитика и мониторинг ---
