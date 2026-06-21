@@ -45,7 +45,6 @@
 # Analytics / Tracking Platforms (3rd-party)
 ############################################################
 ||clarity.ms^
-||plausible.io^
 ||posthog.com^
 ||fullstory.com^
 ||logrocket.com^
@@ -53,8 +52,6 @@
 ||segment.io^
 ||countly.com^
 ||datadoghq.com^
-||loggly.com^
-||rollbar.com^
 ||sentry.io^
 ||sentry-cdn.com^
 
@@ -73,6 +70,12 @@
 ||log.byteoversea.com^
 ||mon.byteoversea.com^
 ||p16-sg.byteimg.com^
+||analytics.snssdk.com^
+||mon.snssdk.com^
+||log.snssdk.com^
+||gecko.snssdk.com^
+||mssdk.bytedance.com^
+||toblog.ctobsnssdk.com^
 
 ############################################################
 # Smart TV / Streaming Ads & Telemetry
@@ -80,11 +83,17 @@
 ||smartads.tv^
 ||ads.samsungads.com^
 ||metrics.samsung.com^
+||configprd.samsungcloudsolution.net^
+||lcprd1.samsungcloudsolution.net^
+||log-ingestion.samsungacr.com^
 ||ads.roku.com^
 ||logs.roku.com^
 ||ads.lg.com^
 ||metrics.lgappstv.com^
 ||lgappstv-analytics.com^
+||aic.service.lgtvcommon.com^
+||ngfts.lge.com^
+||us.ad.lgsmartad.com^
 ||sony-digital-analytics.com^
 ||ads.vizio.com^
 ||tcl-ads.com^
@@ -92,27 +101,27 @@
 ||hisense-analytics.com^
 
 ############################################################
-# Xiaomi Ads & Telemetry (Safe additions)
+# Xiaomi Ads & Telemetry
 ############################################################
 ||ad.xiaomi.com^
 ||ad1.xiaomi.com^
 ||ad.mi.com^
 ||api.ad.xiaomi.com^
 ||sdkconfig.ad.xiaomi.com^
+||sdkconfig.ad.global.xiaomi.com^
 ||globalapi.ad.xiaomi.com^
 ||api.ad.intl.xiaomi.com^
 ||data.mistat.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||mistat.xiaomi.com^
 ||tracking.miui.com^
+||tracking.intl.miui.com^
+||tracking.rus.miui.com^
+||tracking.rus.browser.miui.com^
 ||mitv.tracking.miui.com^
 
-# Optional / UX-sensitive Xiaomi endpoints (Mi Cloud)
-# ||log.xiaomi.com^
-# ||*.events.micloud.xiaomi.com^
-
 ############################################################
-# Android TV / Vungle / AdColony / Amazon Ads (Safe additions)
+# Android TV / Vungle / Amazon Ads
 ############################################################
 ||ads.api.vungle.com^
 ||ads.aws.vungle.com^
@@ -122,12 +131,8 @@
 ||mads.amazon-adsystem.com^
 ||sdk.iad.amazon-adsystem.com^
 
-# Optional / UX-sensitive
-# ||stats.g.doubleclick.net^
-# ||video-stats.video.google.com^
-
 ############################################################
-# Microsoft Ads (SAFE)
+# Microsoft Ads
 ############################################################
 ||ads1.msft.net^
 ||a.ads1.msn.com^
@@ -137,32 +142,37 @@
 ||*.redir.msn.com^
 
 ############################################################
-# Microsoft Telemetry (Safe subset, no updates breakage)
+# Microsoft Telemetry
 ############################################################
 ||telemetry.microsoft.com^
 ||telemetry.urs.microsoft.com^
 ||analytics.mobileapp.microsoft.com^
-||*.perf.microsoft.com^
-||*.perftracking.microsoft.com^
 ||vortex.data.microsoft.com^
+||browser.events.data.microsoft.com^
+||self.events.data.microsoft.com^
+||v10.events.data.microsoft.com^
+||mobile.events.data.microsoft.com^
+||pipe.aria.microsoft.com^
+||watson.telemetry.microsoft.com^
+||settings-win.data.microsoft.com^
+||oca.telemetry.microsoft.com^
 ||*.us.vortex.data.trafficmanager.net^
 ||*.eu.vortex.data.trafficmanager.net^
-||browser.events.data.microsoft.com^
 
 ############################################################
-# Microsoft UX-related (OPTIONAL, comment out if needed)
+# Microsoft UX-related (OPTIONAL)
 ############################################################
 ||*.widgets.microsoft.com^
 ||*.cortana.ai^
 
 ############################################################
-# Apple Analytics (non-critical)
+# Apple Analytics
 ############################################################
 ||metrics.apple.com^
 ||metrics.icloud.com^
 
 ############################################################
-# Honor / MagicOS Telemetry (SAFE)
+# Honor / MagicOS Telemetry
 ############################################################
 ||metrics.hihonor.com^
 ||logservice.hihonor.com^
@@ -171,7 +181,20 @@
 ||tracking.hihonor.com^
 
 ############################################################
-# Crypto / Web miners (legacy but still seen)
+# Discord
+############################################################
+||analytics.discord.com^
+||sentry.discord.com^
+||telemetry.discord.com^
+
+############################################################
+# Telegram Ads
+############################################################
+||promote.telegram.org^
+||adsgram.ai^
+
+############################################################
+# Crypto / Web miners
 ############################################################
 ||coinhive.com^
 ||coinhiveproxy.com^
