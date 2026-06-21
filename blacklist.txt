@@ -42,7 +42,7 @@
 ||mobileapptracking.com^
 
 ############################################################
-# Analytics / Tracking Platforms (3rd-party)
+# Analytics / Tracking Platforms (Safe & Specific)
 ############################################################
 ||clarity.ms^
 ||posthog.com^
@@ -51,9 +51,9 @@
 ||heap.io^
 ||segment.io^
 ||countly.com^
-||datadoghq.com^
-||sentry.io^
+||browser-intake-datadoghq.com^
 ||sentry-cdn.com^
+||o*.ingest.sentry.io^
 
 ############################################################
 # Meta (Facebook / Instagram) Tracking
@@ -101,7 +101,7 @@
 ||hisense-analytics.com^
 
 ############################################################
-# Xiaomi Ads & Telemetry
+# Xiaomi / Poco Ads & Telemetry
 ############################################################
 ||ad.xiaomi.com^
 ||ad1.xiaomi.com^
@@ -119,6 +119,7 @@
 ||tracking.rus.miui.com^
 ||tracking.rus.browser.miui.com^
 ||mitv.tracking.miui.com^
+||adv.sec.miui.com^
 
 ############################################################
 # Android TV / Vungle / Amazon Ads
@@ -136,10 +137,10 @@
 ############################################################
 ||ads1.msft.net^
 ||a.ads1.msn.com^
-||*.a.ads.microsoft.com^
-||*.adsystem.microsoft.com^
-||*.bingads.microsoft.com^
-||*.redir.msn.com^
+||a.ads.microsoft.com^
+||adsystem.microsoft.com^
+||bingads.microsoft.com^
+||redir.msn.com^
 
 ############################################################
 # Microsoft Telemetry
@@ -156,14 +157,14 @@
 ||watson.telemetry.microsoft.com^
 ||settings-win.data.microsoft.com^
 ||oca.telemetry.microsoft.com^
-||*.us.vortex.data.trafficmanager.net^
-||*.eu.vortex.data.trafficmanager.net^
+||us.vortex.data.trafficmanager.net^
+||eu.vortex.data.trafficmanager.net^
 
 ############################################################
-# Microsoft UX-related (OPTIONAL)
+# Microsoft UX-related
 ############################################################
-||*.widgets.microsoft.com^
-||*.cortana.ai^
+||widgets.microsoft.com^
+||cortana.ai^
 
 ############################################################
 # Apple Analytics
@@ -206,10 +207,14 @@
 ############################################################
 ||mc.yandex.ru^
 ||an.yandex.ru^
+||adfox.ru^
 ||top-fwz1.mail.ru^
 ||tns-counter.ru^
 ||smi2.ru^
 ||smi2.net^
+
+# Optional (Раскомментируй, убрав решетку, если не смущают возможные затупы Яндекса)
+# ||bs.yandex.ru^
 
 ############################################################
 # End of file
