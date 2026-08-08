@@ -1,75 +1,10 @@
 ############################################################
-# Google Ads / Analytics
-############################################################
-||doubleclick.net^
-||googlesyndication.com^
-||googleadservices.com^
-||google-analytics.com^
-||googletagmanager.com^
-||dart.google.com^
-||securepubads.g.doubleclick.net^
-||pubads.g.doubleclick.net^
-
-############################################################
-# Major Ad Networks / Exchanges
-############################################################
-||adtech.net^
-||adnxs.com^
-||openx.net^
-||rubiconproject.com^
-||pubmatic.com^
-||criteo.net^
-||criteo.com^
-||outbrain.com^
-||revcontent.net^
-||yieldmo.com^
-||lijit.com^
-||contextweb.com^
-||adroll.com^
-||applovin.com^
-||tapjoy.com^
-||smaato.net^
-||ironsrc.com^
-
-############################################################
-# Mobile / App Ads & Attribution
-############################################################
-||app-measurement.com^
-||mobileads.google.com^
-||ads.mopub.com^
-||adjust.com^
-||appsflyer.com^
-||mobileapptracking.com^
-
-############################################################
-# Analytics / Tracking Platforms (Safe & Specific)
-############################################################
-||clarity.ms^
-||posthog.com^
-||fullstory.com^
-||logrocket.com^
-||heap.io^
-||segment.io^
-||countly.com^
-||browser-intake-datadoghq.com^
-||sentry-cdn.com^
-||o*.ingest.sentry.io^
-
-############################################################
-# Meta (Facebook / Instagram) Tracking
-############################################################
-||graph.facebook.com^
-||connect.facebook.net^
-||business.facebook.com^
-
-############################################################
-# TikTok / ByteDance Telemetry & Ads
+# TikTok / ByteDance telemetry
 ############################################################
 ||analytics.tiktok.com^
 ||ads.tiktok.com^
 ||log.byteoversea.com^
 ||mon.byteoversea.com^
-||p16-sg.byteimg.com^
 ||analytics.snssdk.com^
 ||mon.snssdk.com^
 ||log.snssdk.com^
@@ -78,21 +13,17 @@
 ||toblog.ctobsnssdk.com^
 
 ############################################################
-# Smart TV / Streaming Ads & Telemetry
+# Smart TV / Streaming ads & telemetry
 ############################################################
 ||smartads.tv^
 ||ads.samsungads.com^
 ||metrics.samsung.com^
-||configprd.samsungcloudsolution.net^
-||lcprd1.samsungcloudsolution.net^
 ||log-ingestion.samsungacr.com^
 ||ads.roku.com^
 ||logs.roku.com^
 ||ads.lg.com^
 ||metrics.lgappstv.com^
 ||lgappstv-analytics.com^
-||aic.service.lgtvcommon.com^
-||ngfts.lge.com^
 ||us.ad.lgsmartad.com^
 ||sony-digital-analytics.com^
 ||ads.vizio.com^
@@ -101,7 +32,7 @@
 ||hisense-analytics.com^
 
 ############################################################
-# Xiaomi / Poco Ads & Telemetry
+# Xiaomi / POCO ads & telemetry
 ############################################################
 ||ad.xiaomi.com^
 ||ad1.xiaomi.com^
@@ -122,28 +53,7 @@
 ||adv.sec.miui.com^
 
 ############################################################
-# Android TV / Vungle / Amazon Ads
-############################################################
-||ads.api.vungle.com^
-||ads.aws.vungle.com^
-||api.adcolony.com^
-||impact.applifier.com^
-||cdn.fuseplatform.net^
-||mads.amazon-adsystem.com^
-||sdk.iad.amazon-adsystem.com^
-
-############################################################
-# Microsoft Ads
-############################################################
-||ads1.msft.net^
-||a.ads1.msn.com^
-||a.ads.microsoft.com^
-||adsystem.microsoft.com^
-||bingads.microsoft.com^
-||redir.msn.com^
-
-############################################################
-# Microsoft Telemetry
+# Microsoft telemetry
 ############################################################
 ||telemetry.microsoft.com^
 ||telemetry.urs.microsoft.com^
@@ -155,25 +65,18 @@
 ||mobile.events.data.microsoft.com^
 ||pipe.aria.microsoft.com^
 ||watson.telemetry.microsoft.com^
-||settings-win.data.microsoft.com^
 ||oca.telemetry.microsoft.com^
 ||us.vortex.data.trafficmanager.net^
 ||eu.vortex.data.trafficmanager.net^
 
 ############################################################
-# Microsoft UX-related
-############################################################
-||widgets.microsoft.com^
-||cortana.ai^
-
-############################################################
-# Apple Analytics
+# Apple analytics
 ############################################################
 ||metrics.apple.com^
 ||metrics.icloud.com^
 
 ############################################################
-# Honor / MagicOS Telemetry
+# Honor / MagicOS telemetry
 ############################################################
 ||metrics.hihonor.com^
 ||logservice.hihonor.com^
@@ -182,20 +85,20 @@
 ||tracking.hihonor.com^
 
 ############################################################
-# Discord
+# Discord telemetry / error reporting
 ############################################################
 ||analytics.discord.com^
 ||sentry.discord.com^
 ||telemetry.discord.com^
 
 ############################################################
-# Telegram Ads
+# Telegram advertising
 ############################################################
 ||promote.telegram.org^
 ||adsgram.ai^
 
 ############################################################
-# Crypto / Web miners
+# Crypto / web miners
 ############################################################
 ||coinhive.com^
 ||coinhiveproxy.com^
@@ -203,7 +106,7 @@
 ||webminepool.com^
 
 ############################################################
-# Russian / CIS Ad & Counter Networks
+# Russian / CIS ad & counter networks
 ############################################################
 ||mc.yandex.ru^
 ||an.yandex.ru^
